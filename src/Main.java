@@ -2,17 +2,30 @@ import java.time.LocalDate;
 public class Main {
     public static void main(String[] args) {
 
+        {/*
+            Continent e = new Continent(ContinentName.EUROPE);
+            switch (e.getName()){
 
-        Continent e = new Continent(ContinentName.EUROPE);
-        switch (e.getName()){
+                case EUROPE -> {
+                }
+                case ASIA -> {
+                }
+                case AFRICA -> {
+                }
+            }  */}
 
-            case EUROPE -> {
-            }
-            case ASIA -> {
-            }
-            case AFRICA -> {
-            }
-        }
+        Continent europe = new Continent(ContinentName.Europe);
+        Country greece = new Country("Greece");
+        Country spain = new Country("Spain");
+        europe.addCountryInContinent(greece);
+        europe.addCountryInContinent(spain);
+        System.out.println(europe);
+        Continent south_am = new Continent(ContinentName.South_America);
+        Country argentina = new Country("Argentina");
+        south_am.addCountryInContinent(argentina);
+        System.out.println(south_am);
+
+        League gr_supl1 = new League("Greek Superleague 1", 14);
 
         Team pao = new Team
                 ("Panathinaikos",
@@ -20,11 +33,15 @@ public class Main {
                         new Country("Greece"),
                         "Apostolos Nikolaidis");
 
+        gr_supl1.addTeamInLeague(pao);
+        System.out.println(gr_supl1);
+
         Team barca = new Team
                 ("Barcelona",
                         1899,
                         new Country("Spain"),
                         "Camp Nou");
+
 
         Match day1 = new Match(pao,barca);
         day1.match(pao,barca);
