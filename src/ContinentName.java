@@ -1,5 +1,5 @@
 public enum ContinentName {
 
-    EUROPE, ASIA, AFRICA
+    Africa, Asia, Europe, North_America, South_America, Oceania
 
 }

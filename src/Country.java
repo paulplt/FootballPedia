@@ -1,5 +1,6 @@
 public class Country {
     private String name;
+    private League league;
 
     public Country(String name) {
         this.name = name;
@@ -13,5 +14,11 @@ public class Country {
         this.name = name;
     }
 
-    //Country greece = new Country("Greece");
+    @Override
+    public String toString() {
+        return name;
+    }
+
+
+
 }

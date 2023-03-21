@@ -3,7 +3,8 @@ import java.util.Set;
 
 public class Continent {
     private ContinentName name;
-    private final Set<Country> countries = new HashSet<Country>();
+    private final Set<Country> countries = new HashSet<>();
+
 
     public Continent(ContinentName name) {
         this.name = name;
@@ -23,11 +24,9 @@ public class Continent {
 
     @Override
     public String toString() {
-        return "Continent\n" +
-                name + '\'' +
-                "Countries :" + countries;
+        return "Continent: " +
+                name + '\n' +
+                "Countries : " + countries + '\n' + "*".repeat(60);
     }
-
-    //Continent europe = new Continent("Europe");
 
 }
