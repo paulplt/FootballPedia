@@ -48,9 +48,13 @@ public class FootballPlayer extends Person{
 
     @Override
     public String toString() {
-        return "Player \n" + super.toString() +
+        return getName();
+    }
+
+    public void football_player_info(){
+        System.out.println("Player \n" + super.toString() +
                 "Current Team: " + current_team.getName() + '\n'+
                 "Position(s): " + positions + '\n'+
-                "----------------------------------";
+                "----------------------------------");
     }
 }
