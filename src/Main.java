@@ -97,9 +97,8 @@ public class Main {
                                                 System.out.println(argentina);
 
                                                 Country.upload_Countries_from_txt();
-                                                System.out.println("Uploaded from txt file: ");
-                                                System.out.println("\nCountry - Population - League");
-                                                System.out.println(Country.country_list);
+                                                System.out.println("\nUploaded from txt file: ");
+                                                System.out.println(Country.country_list + "\n");
                                                 break;
                                         case 3:
                                                 gr_supl1.league_info();

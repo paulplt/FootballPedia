@@ -87,10 +87,8 @@ public class Country {
 
     @Override
     public String toString() {
-        StringBuilder sb = new StringBuilder();
-        sb.append(this.name).append(" - ").append(population).append(" - ").append(league.getLeagueName()).append(",\n");
 
-        return sb.toString();
+        return this.name;
     }
 
     public void country_info(){

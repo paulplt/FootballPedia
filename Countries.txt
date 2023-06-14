@@ -1,0 +1,9 @@
+England,Premier League,20,67000000
+France,Ligue 1,20,68000000
+Italy,Serie A,20,59000000
+Germany,Bundesliga,18,84000000
+Portugal,Primeira Liga,18,10500000
+Netherlands,Eredivisie,18,18000000
+Belgium,Belgian Pro League,16,12000000
+Argentina,Liga Profesional de Futbol,28,46000000
+China,Chinese Super League,16,1400000000
