@@ -1,0 +1,12 @@
+[
+  {"name": "England", "league": "Premier League", "population": 67000000},
+  {"name": "France", "league": "Ligue 1", "population": 68000000},
+  {"name": "Italy", "league": "Serie A", "population": 59000000},
+  {"name": "Germany", "league": "Bundesliga", "population": 84000000},
+  {"name": "Portugal", "league": "Primeira Liga", "population": 10500000},
+  {"name": "Netherlands", "league": "Eredivisie", "population": 18000000},
+  {"name": "Belgium", "league": "Belgian Pro League", "population": 12000000},
+  {"name": "Brazil", "league": "Campeonato Brasileiro Série A", "population": 216000000},
+  {"name": "Argentina", "league": "Liga Profesional de Fútbol", "population": 46000000},
+  {"name": "China", "league": "Chinese Super League", "population": 1400000000}
+]
