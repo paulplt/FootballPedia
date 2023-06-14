@@ -1,5 +1,5 @@
 import java.time.LocalDate;
-public class Person {
+abstract class Person {
     private String name;
     private Country country;
     private LocalDate dob;
